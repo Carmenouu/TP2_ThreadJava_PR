@@ -8,8 +8,9 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Affichage TA = new Affichage("AAA");
-		Affichage TB = new Affichage("BB");
+		//UseAffichage ua = new UseAffichage() ;
+		Affichage TA = new Affichage(/*ua,*/ "AAA");
+		Affichage TB = new Affichage(/*ua,*/ "BB");
 
 		TB.start();
 
